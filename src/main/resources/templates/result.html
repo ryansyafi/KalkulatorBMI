@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Kalkulasi BMI</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="centered">
+            <h1>Hasil Kalkulasi BMI</h1>
+        </div>
+        <center>
+        <div class="result">
+            <p>Nilai BMI <b><span th:text="${name}"></span></b> adalah : <i><span th:text="${bmi}"></span></p></i>
+            <p th:text="${message}"></p>
+            <br/>
+            <a href="/">Kembali</a>
+            
+        </div>
+    </center>
+    </div>
+</body>
+</html>

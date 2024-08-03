@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="centered">
+            <h1>Kalkulator BMI</h1>
+        </div>
+        <form action="/calculateBMI" method="post">
+            <p><label>Nama Pengguna</label> :
+                <input type="text" name="name"  required></p>
+            <p><label>Tinggi Badan (cm)</label> :
+                <input type="number" name="height"  required></p>
+            <p><label>Berat Badan (kg)</label> :
+                <input type="number" name="weight"  required></p>
+            <button type="submit">Hitung</button>
+        </form>
+    </div>
+</body>
+</html>
